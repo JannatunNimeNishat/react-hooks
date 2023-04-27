@@ -5,8 +5,9 @@ const Main = () => {
         <div>
             <nav>
                 <Link to='/useState'><li>useState</li></Link>
-                <Outlet></Outlet>
+                <Link to='/useEffect'><li>useEffect</li></Link>
             </nav>
+                <Outlet></Outlet>
         </div>
     );
 };

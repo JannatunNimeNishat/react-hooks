@@ -2,6 +2,7 @@ import {createBrowserRouter} from 'react-router-dom'
 import Main from '../layouts/Main';
 import Home from '../pages/Home';
 import ToDoUseState from '../components/ToDoUseState';
+import ToDoUseEffect from '../components/ToDoUseEffect';
  const router = createBrowserRouter([
     {
         path:'/',
@@ -14,6 +15,10 @@ import ToDoUseState from '../components/ToDoUseState';
             {
                 path:'/useState',
                 element:<ToDoUseState></ToDoUseState>
+            },
+            {
+                path:'/useEffect',
+                element:<ToDoUseEffect></ToDoUseEffect>
             }
         ]
     }
